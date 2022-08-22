@@ -1,0 +1,28 @@
+{
+  "name": "jsa",
+  "version": "0.0.1",
+  "description": "javascript analysis",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "javascript",
+    "static",
+    "analysis",
+    "tool",
+    "ast"
+  ],
+  "author": "@filoxo",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "glob": "^8.0.3",
+    "svelte": "^3.49.0",
+    "typescript": "^4.7.4",
+    "workerpool": "^6.2.1"
+  }
+}
