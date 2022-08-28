@@ -2,7 +2,7 @@
   "name": "jsa",
   "version": "0.0.1",
   "description": "javascript analysis",
-  "main": "lib/index.js",
+  "main": "lib/jsa.js",
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage"
