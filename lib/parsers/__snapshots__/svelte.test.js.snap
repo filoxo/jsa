@@ -1,0 +1,223 @@
+// Vitest Snapshot v1
+
+exports[`ast-worker > returns an ast when parsing plain javascript 1`] = `
+{
+  "content": Node {
+    "body": [
+      Node {
+        "end": 53,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 44,
+            "line": 2,
+          },
+          "start": Position {
+            "column": 0,
+            "line": 2,
+          },
+        },
+        "source": Node {
+          "end": 52,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 43,
+              "line": 2,
+            },
+            "start": Position {
+              "column": 35,
+              "line": 2,
+            },
+          },
+          "raw": "'svelte'",
+          "start": 44,
+          "type": "Literal",
+          "value": "svelte",
+        },
+        "specifiers": [
+          Node {
+            "end": 27,
+            "imported": Node {
+              "end": 27,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 18,
+                  "line": 2,
+                },
+                "start": Position {
+                  "column": 9,
+                  "line": 2,
+                },
+              },
+              "name": "onDestroy",
+              "start": 18,
+              "type": "Identifier",
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 18,
+                "line": 2,
+              },
+              "start": Position {
+                "column": 9,
+                "line": 2,
+              },
+            },
+            "local": Node {
+              "end": 27,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 18,
+                  "line": 2,
+                },
+                "start": Position {
+                  "column": 9,
+                  "line": 2,
+                },
+              },
+              "name": "onDestroy",
+              "start": 18,
+              "type": "Identifier",
+            },
+            "start": 18,
+            "type": "ImportSpecifier",
+          },
+          Node {
+            "end": 36,
+            "imported": Node {
+              "end": 36,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 27,
+                  "line": 2,
+                },
+                "start": Position {
+                  "column": 20,
+                  "line": 2,
+                },
+              },
+              "name": "onMount",
+              "start": 29,
+              "type": "Identifier",
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 27,
+                "line": 2,
+              },
+              "start": Position {
+                "column": 20,
+                "line": 2,
+              },
+            },
+            "local": Node {
+              "end": 36,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 27,
+                  "line": 2,
+                },
+                "start": Position {
+                  "column": 20,
+                  "line": 2,
+                },
+              },
+              "name": "onMount",
+              "start": 29,
+              "type": "Identifier",
+            },
+            "start": 29,
+            "type": "ImportSpecifier",
+          },
+        ],
+        "start": 9,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "declaration": Node {
+          "declarations": [
+            Node {
+              "end": 69,
+              "id": Node {
+                "end": 69,
+                "loc": SourceLocation {
+                  "end": Position {
+                    "column": 15,
+                    "line": 3,
+                  },
+                  "start": Position {
+                    "column": 11,
+                    "line": 3,
+                  },
+                },
+                "name": "name",
+                "start": 65,
+                "type": "Identifier",
+              },
+              "init": null,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 15,
+                  "line": 3,
+                },
+                "start": Position {
+                  "column": 11,
+                  "line": 3,
+                },
+              },
+              "start": 65,
+              "type": "VariableDeclarator",
+            },
+          ],
+          "end": 69,
+          "kind": "let",
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 15,
+              "line": 3,
+            },
+            "start": Position {
+              "column": 7,
+              "line": 3,
+            },
+          },
+          "start": 61,
+          "type": "VariableDeclaration",
+        },
+        "end": 69,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 15,
+            "line": 3,
+          },
+          "start": Position {
+            "column": 0,
+            "line": 3,
+          },
+        },
+        "source": null,
+        "specifiers": [],
+        "start": 54,
+        "type": "ExportNamedDeclaration",
+      },
+    ],
+    "end": 70,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 0,
+        "line": 4,
+      },
+      "start": Position {
+        "column": 0,
+        "line": 1,
+      },
+    },
+    "sourceType": "module",
+    "start": 8,
+    "type": "Program",
+  },
+  "context": "default",
+  "end": 79,
+  "start": 0,
+  "type": "Script",
+}
+`;
