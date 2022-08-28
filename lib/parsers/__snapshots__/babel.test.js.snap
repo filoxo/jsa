@@ -425,3 +425,543 @@ Node {
   "type": "File",
 }
 `;
+
+exports[`ast-worker > returns an ast when parsing typescript 1`] = `
+Node {
+  "comments": [],
+  "end": 225,
+  "errors": [],
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 42,
+      "index": 225,
+      "line": 5,
+    },
+    "filename": undefined,
+    "identifierName": undefined,
+    "start": Position {
+      "column": 0,
+      "index": 0,
+      "line": 1,
+    },
+  },
+  "program": Node {
+    "body": [
+      Node {
+        "end": 39,
+        "importKind": "value",
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 39,
+            "index": 39,
+            "line": 1,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 0,
+            "index": 0,
+            "line": 1,
+          },
+        },
+        "source": Node {
+          "end": 39,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 39,
+              "index": 39,
+              "line": 1,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 28,
+              "index": 28,
+              "line": 1,
+            },
+          },
+          "start": 28,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 20,
+            "importKind": "value",
+            "imported": Node {
+              "end": 20,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 20,
+                  "index": 20,
+                  "line": 1,
+                },
+                "filename": undefined,
+                "identifierName": "namedExport",
+                "start": Position {
+                  "column": 9,
+                  "index": 9,
+                  "line": 1,
+                },
+              },
+              "name": "namedExport",
+              "start": 9,
+              "type": "Identifier",
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 20,
+                "index": 20,
+                "line": 1,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 9,
+                "index": 9,
+                "line": 1,
+              },
+            },
+            "local": Node {
+              "end": 20,
+              "extra": undefined,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 20,
+                  "index": 20,
+                  "line": 1,
+                },
+                "filename": undefined,
+                "identifierName": "namedExport",
+                "start": Position {
+                  "column": 9,
+                  "index": 9,
+                  "line": 1,
+                },
+              },
+              "name": "namedExport",
+              "range": undefined,
+              "start": 9,
+              "type": "Identifier",
+            },
+            "start": 9,
+            "type": "ImportSpecifier",
+          },
+        ],
+        "start": 0,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "end": 83,
+        "importKind": "type",
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 43,
+            "index": 83,
+            "line": 2,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 2,
+            "index": 42,
+            "line": 2,
+          },
+        },
+        "source": Node {
+          "end": 83,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 43,
+              "index": 83,
+              "line": 2,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 32,
+              "index": 72,
+              "line": 2,
+            },
+          },
+          "start": 72,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 64,
+            "importKind": "value",
+            "imported": Node {
+              "end": 64,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 24,
+                  "index": 64,
+                  "line": 2,
+                },
+                "filename": undefined,
+                "identifierName": "someType",
+                "start": Position {
+                  "column": 16,
+                  "index": 56,
+                  "line": 2,
+                },
+              },
+              "name": "someType",
+              "start": 56,
+              "type": "Identifier",
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 24,
+                "index": 64,
+                "line": 2,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 16,
+                "index": 56,
+                "line": 2,
+              },
+            },
+            "local": Node {
+              "end": 64,
+              "extra": undefined,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 24,
+                  "index": 64,
+                  "line": 2,
+                },
+                "filename": undefined,
+                "identifierName": "someType",
+                "start": Position {
+                  "column": 16,
+                  "index": 56,
+                  "line": 2,
+                },
+              },
+              "name": "someType",
+              "range": undefined,
+              "start": 56,
+              "type": "Identifier",
+            },
+            "start": 56,
+            "type": "ImportSpecifier",
+          },
+        ],
+        "start": 42,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "end": 140,
+        "importKind": "value",
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 56,
+            "index": 140,
+            "line": 3,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 2,
+            "index": 86,
+            "line": 3,
+          },
+        },
+        "source": Node {
+          "end": 140,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 56,
+              "index": 140,
+              "line": 3,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 45,
+              "index": 129,
+              "line": 3,
+            },
+          },
+          "start": 129,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 121,
+            "importKind": "value",
+            "imported": Node {
+              "end": 104,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 20,
+                  "index": 104,
+                  "line": 3,
+                },
+                "filename": undefined,
+                "identifierName": "something",
+                "start": Position {
+                  "column": 11,
+                  "index": 95,
+                  "line": 3,
+                },
+              },
+              "name": "something",
+              "start": 95,
+              "type": "Identifier",
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 37,
+                "index": 121,
+                "line": 3,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 11,
+                "index": 95,
+                "line": 3,
+              },
+            },
+            "local": Node {
+              "end": 121,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 37,
+                  "index": 121,
+                  "line": 3,
+                },
+                "filename": undefined,
+                "identifierName": "somethingElse",
+                "start": Position {
+                  "column": 24,
+                  "index": 108,
+                  "line": 3,
+                },
+              },
+              "name": "somethingElse",
+              "start": 108,
+              "type": "Identifier",
+            },
+            "start": 95,
+            "type": "ImportSpecifier",
+          },
+        ],
+        "start": 86,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "end": 182,
+        "importKind": "value",
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 41,
+            "index": 182,
+            "line": 4,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 2,
+            "index": 143,
+            "line": 4,
+          },
+        },
+        "source": Node {
+          "end": 182,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 41,
+              "index": 182,
+              "line": 4,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 30,
+              "index": 171,
+              "line": 4,
+            },
+          },
+          "start": 171,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 165,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 24,
+                "index": 165,
+                "line": 4,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 9,
+                "index": 150,
+                "line": 4,
+              },
+            },
+            "local": Node {
+              "end": 165,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 24,
+                  "index": 165,
+                  "line": 4,
+                },
+                "filename": undefined,
+                "identifierName": "starImport",
+                "start": Position {
+                  "column": 14,
+                  "index": 155,
+                  "line": 4,
+                },
+              },
+              "name": "starImport",
+              "start": 155,
+              "type": "Identifier",
+            },
+            "start": 150,
+            "type": "ImportNamespaceSpecifier",
+          },
+        ],
+        "start": 143,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "end": 225,
+        "importKind": "value",
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 42,
+            "index": 225,
+            "line": 5,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 2,
+            "index": 185,
+            "line": 5,
+          },
+        },
+        "source": Node {
+          "end": 225,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 42,
+              "index": 225,
+              "line": 5,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 31,
+              "index": 214,
+              "line": 5,
+            },
+          },
+          "start": 214,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 208,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 25,
+                "index": 208,
+                "line": 5,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 9,
+                "index": 192,
+                "line": 5,
+              },
+            },
+            "local": Node {
+              "end": 208,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 25,
+                  "index": 208,
+                  "line": 5,
+                },
+                "filename": undefined,
+                "identifierName": "defaultSomething",
+                "start": Position {
+                  "column": 9,
+                  "index": 192,
+                  "line": 5,
+                },
+              },
+              "name": "defaultSomething",
+              "start": 192,
+              "type": "Identifier",
+            },
+            "start": 192,
+            "type": "ImportDefaultSpecifier",
+          },
+        ],
+        "start": 185,
+        "type": "ImportDeclaration",
+      },
+    ],
+    "directives": [],
+    "end": 225,
+    "interpreter": null,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 42,
+        "index": 225,
+        "line": 5,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "index": 0,
+        "line": 1,
+      },
+    },
+    "sourceType": "module",
+    "start": 0,
+    "type": "Program",
+  },
+  "start": 0,
+  "type": "File",
+}
+`;
