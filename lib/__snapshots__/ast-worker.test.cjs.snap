@@ -1,0 +1,429 @@
+// Vitest Snapshot v1
+
+exports[`ast-worker > can parse plain js 1`] = `
+Node {
+  "comments": [],
+  "end": 181,
+  "errors": [],
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 42,
+      "index": 181,
+      "line": 4,
+    },
+    "filename": undefined,
+    "identifierName": undefined,
+    "start": Position {
+      "column": 0,
+      "index": 0,
+      "line": 1,
+    },
+  },
+  "program": Node {
+    "body": [
+      Node {
+        "end": 39,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 39,
+            "index": 39,
+            "line": 1,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 0,
+            "index": 0,
+            "line": 1,
+          },
+        },
+        "source": Node {
+          "end": 39,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 39,
+              "index": 39,
+              "line": 1,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 28,
+              "index": 28,
+              "line": 1,
+            },
+          },
+          "start": 28,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 20,
+            "imported": Node {
+              "end": 20,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 20,
+                  "index": 20,
+                  "line": 1,
+                },
+                "filename": undefined,
+                "identifierName": "namedExport",
+                "start": Position {
+                  "column": 9,
+                  "index": 9,
+                  "line": 1,
+                },
+              },
+              "name": "namedExport",
+              "start": 9,
+              "type": "Identifier",
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 20,
+                "index": 20,
+                "line": 1,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 9,
+                "index": 9,
+                "line": 1,
+              },
+            },
+            "local": Node {
+              "end": 20,
+              "extra": undefined,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 20,
+                  "index": 20,
+                  "line": 1,
+                },
+                "filename": undefined,
+                "identifierName": "namedExport",
+                "start": Position {
+                  "column": 9,
+                  "index": 9,
+                  "line": 1,
+                },
+              },
+              "name": "namedExport",
+              "range": undefined,
+              "start": 9,
+              "type": "Identifier",
+            },
+            "start": 9,
+            "type": "ImportSpecifier",
+          },
+        ],
+        "start": 0,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "end": 96,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 56,
+            "index": 96,
+            "line": 2,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 2,
+            "index": 42,
+            "line": 2,
+          },
+        },
+        "source": Node {
+          "end": 96,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 56,
+              "index": 96,
+              "line": 2,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 45,
+              "index": 85,
+              "line": 2,
+            },
+          },
+          "start": 85,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 77,
+            "imported": Node {
+              "end": 60,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 20,
+                  "index": 60,
+                  "line": 2,
+                },
+                "filename": undefined,
+                "identifierName": "something",
+                "start": Position {
+                  "column": 11,
+                  "index": 51,
+                  "line": 2,
+                },
+              },
+              "name": "something",
+              "start": 51,
+              "type": "Identifier",
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 37,
+                "index": 77,
+                "line": 2,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 11,
+                "index": 51,
+                "line": 2,
+              },
+            },
+            "local": Node {
+              "end": 77,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 37,
+                  "index": 77,
+                  "line": 2,
+                },
+                "filename": undefined,
+                "identifierName": "somethingElse",
+                "start": Position {
+                  "column": 24,
+                  "index": 64,
+                  "line": 2,
+                },
+              },
+              "name": "somethingElse",
+              "start": 64,
+              "type": "Identifier",
+            },
+            "start": 51,
+            "type": "ImportSpecifier",
+          },
+        ],
+        "start": 42,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "end": 138,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 41,
+            "index": 138,
+            "line": 3,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 2,
+            "index": 99,
+            "line": 3,
+          },
+        },
+        "source": Node {
+          "end": 138,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 41,
+              "index": 138,
+              "line": 3,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 30,
+              "index": 127,
+              "line": 3,
+            },
+          },
+          "start": 127,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 121,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 24,
+                "index": 121,
+                "line": 3,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 9,
+                "index": 106,
+                "line": 3,
+              },
+            },
+            "local": Node {
+              "end": 121,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 24,
+                  "index": 121,
+                  "line": 3,
+                },
+                "filename": undefined,
+                "identifierName": "starImport",
+                "start": Position {
+                  "column": 14,
+                  "index": 111,
+                  "line": 3,
+                },
+              },
+              "name": "starImport",
+              "start": 111,
+              "type": "Identifier",
+            },
+            "start": 106,
+            "type": "ImportNamespaceSpecifier",
+          },
+        ],
+        "start": 99,
+        "type": "ImportDeclaration",
+      },
+      Node {
+        "end": 181,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 42,
+            "index": 181,
+            "line": 4,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 2,
+            "index": 141,
+            "line": 4,
+          },
+        },
+        "source": Node {
+          "end": 181,
+          "extra": {
+            "raw": "'somewhere'",
+            "rawValue": "somewhere",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 42,
+              "index": 181,
+              "line": 4,
+            },
+            "filename": undefined,
+            "identifierName": undefined,
+            "start": Position {
+              "column": 31,
+              "index": 170,
+              "line": 4,
+            },
+          },
+          "start": 170,
+          "type": "StringLiteral",
+          "value": "somewhere",
+        },
+        "specifiers": [
+          Node {
+            "end": 164,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 25,
+                "index": 164,
+                "line": 4,
+              },
+              "filename": undefined,
+              "identifierName": undefined,
+              "start": Position {
+                "column": 9,
+                "index": 148,
+                "line": 4,
+              },
+            },
+            "local": Node {
+              "end": 164,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 25,
+                  "index": 164,
+                  "line": 4,
+                },
+                "filename": undefined,
+                "identifierName": "defaultSomething",
+                "start": Position {
+                  "column": 9,
+                  "index": 148,
+                  "line": 4,
+                },
+              },
+              "name": "defaultSomething",
+              "start": 148,
+              "type": "Identifier",
+            },
+            "start": 148,
+            "type": "ImportDefaultSpecifier",
+          },
+        ],
+        "start": 141,
+        "type": "ImportDeclaration",
+      },
+    ],
+    "directives": [],
+    "end": 181,
+    "interpreter": null,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 42,
+        "index": 181,
+        "line": 4,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "index": 0,
+        "line": 1,
+      },
+    },
+    "sourceType": "module",
+    "start": 0,
+    "type": "Program",
+  },
+  "start": 0,
+  "type": "File",
+}
+`;
+
+exports[`ast-worker > can parse typescript 1`] = `undefined`;

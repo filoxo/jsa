@@ -4,7 +4,8 @@
   "description": "javascript analysis",
   "main": "lib/index.js",
   "scripts": {
-    "test": "test"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [
     "javascript",
@@ -24,5 +25,8 @@
     "svelte": "^3.49.0",
     "typescript": "^4.7.4",
     "workerpool": "^6.2.1"
+  },
+  "devDependencies": {
+    "vitest": "^0.22.1"
   }
 }
