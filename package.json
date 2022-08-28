@@ -27,6 +27,8 @@
     "workerpool": "^6.2.1"
   },
   "devDependencies": {
+    "prettier": "^2.7.1",
     "vitest": "^0.22.1"
-  }
+  },
+  "prettier": {}
 }
